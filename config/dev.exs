@@ -46,16 +46,16 @@ config :demo, DemoWeb.Endpoint,
 # different ports.
 
 # Watch static and templates for browser reloading.
-config :demo, DemoWeb.Endpoint,
-  live_reload: [
-    patterns: [
-      ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
-      ~r{priv/gettext/.*(po)$},
-      ~r{lib/demo_web/views/.*(ex)$},
-      ~r{lib/demo_web/templates/.*(eex)$},
-      ~r{lib/demo_web/live/.*(ex)$},
-    ]
-  ]
+# config :demo, DemoWeb.Endpoint,
+#   live_reload: [
+#     patterns: [
+#       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
+#       ~r{priv/gettext/.*(po)$},
+#       ~r{lib/demo_web/views/.*(ex)$},
+#       ~r{lib/demo_web/templates/.*(eex)$},
+#       ~r{lib/demo_web/live/.*(ex)$},
+#     ]
+#   ]
 
 # Do not include metadata nor timestamps in development logs
 config :logger, :console, format: "[$level] $message\n"
